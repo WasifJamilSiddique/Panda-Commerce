@@ -18,3 +18,37 @@
 .container{
     margin-bottom: 100px;
 }
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    color: white;
+    border-radius: 15px;
+}
+.cat1{
+    background-image: linear-gradient(orange, yellow);
+}
+.cat2{
+    background-image: linear-gradient(purple, blueviolet);
+}
+.cat3{
+    background-image: linear-gradient(to right, blue, lightblue);
+}
+.categories img{
+    width: 100px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+#subscribe{
+    height: 300px;
+}
+#subscribe h6{
+    color: gray;
+}
